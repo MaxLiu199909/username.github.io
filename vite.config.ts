@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/username.github.io/',  // 更新为您的仓库名
+  base: './',  // 使用相对路径
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
